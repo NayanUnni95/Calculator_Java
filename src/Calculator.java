@@ -5,6 +5,8 @@ public class Calculator {
 		JFrame jf=new JFrame("Calculator");
 		jf.setLayout(null);
 		jf.setSize(600,600);
+		jf.setLocation(373,100);
+		
 		
 		jf.setVisible(true);
 		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
