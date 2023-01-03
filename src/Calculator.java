@@ -20,6 +20,7 @@ public class Calculator {
 		DisplayLabel.setForeground(Color.white);
 		jf.add(DisplayLabel);
 		
+		//Numerical Buttons.
 		JButton SevenButton=new JButton("7");
 		SevenButton.setBounds(30,130,80,80);
 		jf.add(SevenButton);
@@ -59,6 +60,33 @@ public class Calculator {
 		JButton ZeroButton=new JButton("0");
 		ZeroButton.setBounds(130, 430, 80, 80);
 		jf.add(ZeroButton);
+		
+		//Arethamatical operator Buttons
+		JButton PlusButton=new JButton("+");
+		PlusButton.setBounds(330, 130, 80, 80);
+		jf.add(PlusButton);
+		
+		JButton NegativeButton=new JButton("-");
+		NegativeButton.setBounds(330, 230, 80, 80);
+		jf.add(NegativeButton);
+		
+		JButton MultiplicationButton=new JButton("x");
+		MultiplicationButton.setBounds(330, 330, 80, 80);
+		jf.add(MultiplicationButton);
+		
+		JButton DivisionButton=new JButton("/");
+		DivisionButton.setBounds(330, 430, 80, 80);
+		jf.add(DivisionButton);
+		
+		
+		//Logical Button
+		JButton DotButton=new JButton(".");
+		DotButton.setBounds(30, 430, 80, 80);
+		jf.add(DotButton);
+		
+		JButton EqualToButton=new JButton("=");
+		EqualToButton.setBounds(230, 430, 80, 80);
+		jf.add(EqualToButton);
 		
 		jf.setVisible(true);
 		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
