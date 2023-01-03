@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.awt.Font;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -23,68 +24,84 @@ public class Calculator {
 		//Numerical Buttons.
 		JButton SevenButton=new JButton("7");
 		SevenButton.setBounds(30,130,80,80);
+		SevenButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(SevenButton);
 		
 		JButton EightButton=new JButton("8");
 		EightButton.setBounds(130,130,80,80);
+		EightButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(EightButton);
 		
 		JButton NineButton=new JButton("9");
 		NineButton.setBounds(230,130,80,80);
+		NineButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(NineButton);
 		
 		JButton SixButton=new JButton("6");
 		SixButton.setBounds(30,230,80,80);
+		SixButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(SixButton);
 		
 		JButton FiveButton=new JButton("5");
 		FiveButton.setBounds(130,230,80,80);
+		FiveButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(FiveButton);
 		
 		JButton FourButton=new JButton("4");
 		FourButton.setBounds(230,230,80,80);
+		FourButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(FourButton);
 		
 		JButton OneButton=new JButton("1");
 		OneButton.setBounds(30, 330, 80, 80);
+		OneButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(OneButton);
 				
 		JButton TwoButton=new JButton("2");
 		TwoButton.setBounds(130,330,80,80);
+		TwoButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(TwoButton);
 		
 		JButton ThreeButton=new JButton("3");
 		ThreeButton.setBounds(230,330,80,80);
+		ThreeButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(ThreeButton);
 		
 		JButton ZeroButton=new JButton("0");
 		ZeroButton.setBounds(130, 430, 80, 80);
+		ZeroButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(ZeroButton);
 		
 		//Arethamatical operator Buttons
 		JButton PlusButton=new JButton("+");
 		PlusButton.setBounds(330, 130, 80, 80);
+		PlusButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(PlusButton);
 		
 		JButton NegativeButton=new JButton("-");
 		NegativeButton.setBounds(330, 230, 80, 80);
+		NegativeButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(NegativeButton);
 		
 		JButton MultiplicationButton=new JButton("x");
 		MultiplicationButton.setBounds(330, 330, 80, 80);
+		MultiplicationButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(MultiplicationButton);
 		
 		JButton DivisionButton=new JButton("/");
 		DivisionButton.setBounds(330, 430, 80, 80);
+		DivisionButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(DivisionButton);
 		
 		//Logical Button
 		JButton DotButton=new JButton(".");
 		DotButton.setBounds(30, 430, 80, 80);
+		DotButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(DotButton);
 				
 		JButton EqualToButton=new JButton("=");
 		EqualToButton.setBounds(230, 430, 80, 80);
+		EqualToButton.setFont(new Font("Arial",Font.PLAIN,40));
 		jf.add(EqualToButton);
 		
 		jf.setVisible(true);
