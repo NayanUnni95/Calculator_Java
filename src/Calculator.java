@@ -78,12 +78,11 @@ public class Calculator {
 		DivisionButton.setBounds(330, 430, 80, 80);
 		jf.add(DivisionButton);
 		
-		
 		//Logical Button
 		JButton DotButton=new JButton(".");
 		DotButton.setBounds(30, 430, 80, 80);
 		jf.add(DotButton);
-		
+				
 		JButton EqualToButton=new JButton("=");
 		EqualToButton.setBounds(230, 430, 80, 80);
 		jf.add(EqualToButton);
