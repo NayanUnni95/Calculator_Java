@@ -57,7 +57,7 @@ public class Calculator {
 		jf.add(ThreeButton);
 		
 		JButton ZeroButton=new JButton("0");
-		ZeroButton.setBounds(30, 430, 80, 80);
+		ZeroButton.setBounds(130, 430, 80, 80);
 		jf.add(ZeroButton);
 		
 		jf.setVisible(true);
