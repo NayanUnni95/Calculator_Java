@@ -1,4 +1,7 @@
+import java.awt.Color;
+
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 public class Calculator {
 	public Calculator(){
@@ -6,6 +9,12 @@ public class Calculator {
 		jf.setLayout(null);
 		jf.setSize(600,600);
 		jf.setLocation(373,100);
+		
+		JLabel DisplayLabel=new JLabel("Hello");
+		DisplayLabel.setBounds(30,50,540,40);
+		DisplayLabel.setBackground(Color.gray);
+		DisplayLabel.setOpaque(true);
+		jf.add(DisplayLabel);
 		
 		
 		jf.setVisible(true);
